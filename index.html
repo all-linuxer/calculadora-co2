@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculadora de Emissão de CO₂ - Viagem entre Capitais</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Calculadora de Emissão de CO₂ para Viagens 🚗✈️</h1>
+    <p class="lead">Selecione duas cidades (capitais dos estados brasileiros) e escolha o meio de transporte clicando na imagem correspondente.</p>
+
+    <section class="controls">
+      <div class="selects">
+        <div class="field">
+          <label for="origin">Origem</label>
+          <select id="origin"><option value="">-- escolha --</option></select>
+        </div>
+        <div class="field">
+          <label for="destination">Destino</label>
+          <select id="destination"><option value="">-- escolha --</option></select>
+        </div>
+      </div>
+
+      <div class="distance-row">
+        <p id="distanceLabel">Distância: <strong id="distanceValue">—</strong></p>
+        <p id="routeNotice" class="notice" role="alert" aria-live="polite">Rota não cadastrada (use entrada manual abaixo ou escolha outra rota)</p>
+        <div class="manual-distance">
+          <label for="manualDistance">Distância manual (km)</label>
+          <input id="manualDistance" type="number" min="0" step="1" />
+        </div>
+      </div>
+
+      <h2>Meio de transporte</h2>
+      <div class="transports" id="transports">
+        <!-- transport items injected here -->
+      </div>
+
+      <div class="actions">
+        <button id="calculate" class="btn" disabled>Calcular emissão</button>
+        <button id="clear" class="btn secondary">Limpar</button>
+      </div>
+    </section>
+
+    <section class="result" id="result">
+      <h2>Resultado</h2>
+      <div id="resultContent">Nenhum cálculo realizado ainda.</div>
+    </section>
+
+    <footer>
+      <p>Feito com atenção pelo ghcopilot</p>
+    </footer>
+  </main>
+
+  <script src="routes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

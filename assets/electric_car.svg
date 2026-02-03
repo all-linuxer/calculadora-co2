@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="elecCarTitle">
+  <title id="elecCarTitle">Carro Elétrico</title>
+  <rect x="4" y="18" width="56" height="18" rx="4" fill="#14b8a6" />
+  <rect x="10" y="10" width="28" height="14" rx="3" fill="#7dd3a6" />
+  <polygon points="44,18 36,26 46,26 38,34" fill="#fff" opacity="0.92" />
+  <circle cx="18" cy="40" r="5" fill="#14b8a6" />
+  <circle cx="46" cy="40" r="5" fill="#14b8a6" />
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="trainTitle">
+  <title id="trainTitle">Trem</title>
+  <rect x="8" y="10" width="48" height="20" rx="3" fill="#0b74de" />
+  <rect x="14" y="16" width="8" height="8" fill="#fff" opacity="0.95" />
+  <rect x="34" y="16" width="8" height="8" fill="#fff" opacity="0.95" />
+  <path d="M10 32 L54 32 L46 40 L18 40 Z" fill="#0b74de" opacity="0.9" />
+</svg>

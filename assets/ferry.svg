@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="ferryTitle">
+  <title id="ferryTitle">Barco / Ferry</title>
+  <path d="M8 32 L56 32 L48 40 L16 40 Z" fill="#0ea5a4" />
+  <rect x="20" y="22" width="24" height="8" fill="#0ea5a4" />
+  <circle cx="18" cy="36" r="2" fill="#0ea5a4" />
+  <circle cx="46" cy="36" r="2" fill="#0ea5a4" />
+</svg>

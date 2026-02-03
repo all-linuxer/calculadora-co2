@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="bgTitle">
+  <title id="bgTitle">Fundo minimalista com tons verde-acinzentados</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4fbf7" stop-opacity="1" />
+      <stop offset="1" stop-color="#eef9f1" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#e6f4ec" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d6eddc" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fundo suave -->
+  <rect width="1200" height="800" fill="url(#g1)" />
+
+  <!-- formas orgânicas em tonalidade verde claro, bem sutis -->
+  <g fill="url(#g2)" opacity="0.85">
+    <path d="M0 560 C180 480, 360 620, 600 560 C840 500, 960 640, 1200 560 L1200 800 L0 800 Z" />
+    <path d="M0 420 C160 360, 360 420, 600 380 C840 340, 960 420, 1200 380 L1200 560 L0 560 Z" opacity="0.6" />
+  </g>
+
+  <!-- elemento gráfico minimalista (folha abstrata) -->
+  <g transform="translate(920,80) scale(1.2)" opacity="0.14" fill="#9ed8b8">
+    <path d="M4 32 C44 4, 88 4, 120 32 C88 56, 44 56, 4 32 Z" />
+  </g>
+
+  <!-- pequenos pontos decorativos -->
+  <g fill="#cfe9d6" opacity="0.7">
+    <circle cx="120" cy="120" r="5" />
+    <circle cx="190" cy="170" r="3" />
+    <circle cx="260" cy="90" r="4" />
+    <circle cx="340" cy="140" r="3" />
+  </g>
+
+</svg>

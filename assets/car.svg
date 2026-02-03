@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="carTitle">
+  <title id="carTitle">Carro</title>
+  <rect x="4" y="18" width="56" height="18" rx="4" fill="#0b74de" />
+  <rect x="10" y="10" width="44" height="14" rx="3" fill="#0ea5ff" />
+  <circle cx="18" cy="40" r="5" fill="#0b74de" />
+  <circle cx="46" cy="40" r="5" fill="#0b74de" />
+  <rect x="26" y="22" width="12" height="8" rx="1" fill="#fff" opacity="0.85" />
+</svg>

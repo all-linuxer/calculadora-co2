@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="planeTitle">
+  <title id="planeTitle">Avião</title>
+  <path d="M8 32 L56 20 L40 26 L32 20 L8 26 V32 Z" fill="#0b74de" />
+  <rect x="22" y="18" width="6" height="4" fill="#fff" opacity="0.9" />
+</svg>

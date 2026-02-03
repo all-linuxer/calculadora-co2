@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="240" height="180" role="img" aria-labelledby="motorTitle">
+  <title id="motorTitle">Motocicleta</title>
+  <circle cx="18" cy="34" r="6" fill="#0b74de" />
+  <circle cx="46" cy="34" r="6" fill="#0b74de" />
+  <path d="M18 34 L28 24 L42 24 L46 34" stroke="#0b74de" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="34" y="14" width="10" height="4" rx="1" fill="#60a5fa" />
+</svg>
